@@ -1,0 +1,58 @@
+gameState = 0
+while True:
+    while gameState == 0:
+        #the start of the game
+        player = input("What is your name?")
+        if player == "":
+            print("Thats not a name silly!" + " please enter a name")
+            #player = input("please enter a name")
+        else:
+            print("thank you for the name")
+           
+            gameState = 1
+    break
+print("\nWelcome to the arena " + player)
+
+# sword actions are swing and deals 10 damage
+# spear actions are stab and deals 5 damage
+# bows actions are aim, and shoolt and deals 15 damage
+
+weapon = input("\nIn front of you " + player + " you see a Sword, a Spear, and a Bow").lower()
+print("what would you like to take to battle with you?")
+if weapon == "spear":
+    print("\nYou pick up a Spear, it has a long brown shaft, a large gray pointy end that can stab and a smaller pointy gray piece on the other end of the shaft")
+if weapon == "sword":
+    print("\nthis is not just a sword this is a katana")
+    print("On the handle of the sword it looks as it is made of oak " + "the actual blade of the sword looks as if it was made of a glossy white metal and so sharp that it can pierce chain armor and slice clean through bullets")
+if weapon == "bow":
+    print("\nthe grip of the bow looks like its made of a white string " + "the bowstring looks as if it is made of a sturdy metal wire")
+if weapon == "":
+    print("so you have chosen your fists?" + " HA HA HA HA" + " i love it, you are either very confident or very very foolish!")
+    
+print("\nas you start to look around, you realize that you are surrounded by stone and concrete")
+print("\nyou see that there is also a metal gate that starts to open")
+
+print("as you walk through the gate nervously, and you hear an overarching voice saying")
+
+#need help with making a while loop so i can have it so it will keep asking "WHICH ANIMAL WOULD YOU LIKE TO SPEND YOUR LAST DAY ON EARTH WITH!" until they put an animal that is available to pick for their fight
+print("welcome to the arena of rome" + "you are very lucky to be choosen for this honor, NOW TIME TO MEET YOUR MAKER!")
+levelNumber = 0;
+print("now who would you like to fight" + " a Lion or a Bear")
+while True:
+    playerInput = input()
+    playerInput = playerInput.lower()
+    if levelNumber == 0:
+        if playerInput == "lion" or playerInput == "bear":
+            animal = playerInput
+            levelNumber = 1
+        else:
+            print("pick a real animal")
+    if levelNumber == 1:
+        print("wise choice" +  player)
+        break
+
+if animal == "bear":
+    print("\nyou hear the loud voice appear again " + "\nHOW NOBLE OF YOU TO CHOOSE THE BEAR, THIS BEAR IS NATIVE TO THE KODIAK ISLANDS OF ALASKA. HE HAS BEEN STARVED FOR DAYS TO GET READY FOR THIS VERY BATTLE!")
+
+if animal == "lion":
+    print("you hear a loud roar and the voice comes back as you hear " + "\nSO YOU HAVE CHOOSEN THE LION, HE IS NATIVE TO THE SOUTH SAHARA DESERT, THE VEGETATION OF THE DESERT!")
