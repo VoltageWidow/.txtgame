@@ -55,4 +55,4 @@ if animal == "bear":
     print("\nyou hear the loud voice appear again " + "\nHOW NOBLE OF YOU TO CHOOSE THE BEAR, THIS BEAR IS NATIVE TO THE KODIAK ISLANDS OF ALASKA. HE HAS BEEN STARVED FOR DAYS TO GET READY FOR THIS VERY BATTLE!")
 
 if animal == "lion":
-    print("you hear a loud roar and the voice comes back as you hear " + "\nSO YOU HAVE CHOOSEN THE LION, HE IS NATIVE TO THE SOUTH SAHARA DESERT, THE VEGETATION OF THE DESERT!")
+    print("you hear a loud roar and the voice comes back as you hear " + "\nSO YOU HAVE CHOOSEN THE LION, HE IS NATIVE TO THE SOUTH SAHARA DESERT, THE VEGETATION OF THE DESERT IS BARREN SO HE TOO IS HUNGRY!")
